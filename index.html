@@ -43,7 +43,11 @@
 
 </head>
 <body>
+		<p class="pin-top centre caps light-grey">Shake for a new strategy</p>
+<p class="pin-bottom"><a href="http://www.rtqe.net/ObliqueStrategies/">Oblique Strategies © 1975 Brian Eno/Peter Schmidt</a></p>
 <div class="container">
+
+
 
 <div class="sixteen columns">	
 	
@@ -162,11 +166,6 @@
 <li class="quotes">You don't have to be ashamed of using your own ideas</li>
 	</ul>
 
-
-Oblique Strategies © 1975 Brian Eno/Peter Schmidt
-http://www.rtqe.net/ObliqueStrategies/
-Content provided by Gregory Taylor
-http://minimaldesign.net/os/?ed=01
 </div>
 
 </div>
@@ -218,22 +217,10 @@ $(document).ready(function(){
 	
 	//define a custom method to fire when shake occurs.
 	function shakeEventDidOccur () {
-		alert('Shake');
 		showQuotes();
 	}
 };	
 	
-	
-	var el = document.getElementById('tips'), myTap = new Tap(el);
-
-	// el.addEventListener('tap', tapDidOccur, false); 
-function tapDidOccur (e) {
-		alert('Tap');
-		showQuotes();
-}
-    
-
-
     
 });
 
@@ -241,22 +228,12 @@ function tapDidOccur (e) {
 
 </script>	
 
-
-	<!-- Optimized Google Analytics. Change UA-XXXXX-X to your site ID -->
-	<script>var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
-	
-
 <script type="text/javascript">
 		
 		jQuery(document).ready(function ($) {
-
-		$(".quotes").fitText(1);
-
+			$(".quotes").fitText(1);
 		});
 
-	
-
-	
 </script>
 
 <!-- End Document

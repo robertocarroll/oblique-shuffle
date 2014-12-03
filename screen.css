@@ -82,5 +82,27 @@
 
 		.quotes {padding-top:2em; line-height:1.2em; overflow: hidden; display:none;}	
 
+.pin-bottom {
+	position: absolute; 
+	bottom: 0px;
+	font-size: 12px;
+	line-height: 17px;
+}
+
+.pin-top {
+	position: absolute; 
+	top: 0px;
+}
 		
+.caps {
+	text-transform: uppercase;
+}
+
+.centre {
+	text-align: center;
+}
+
+.light-grey {
+	color: #d3d3d3;
+}
 	
